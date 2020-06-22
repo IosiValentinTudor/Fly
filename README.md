@@ -10,6 +10,7 @@ Astfel in cadrul acestui depozit o sa găsiți următoarele directoare:
 Important:
 
  - **NU** este permisă adăugarea de `sub-repository`
+ - Vă rugam ca in proiect să **NU** incărcați arhive ci **DOAR codul sursă**. Nerespectarea acestei instrucțiuni poate duce la ignorarea codului.
 
 ### Instructiuni
 
@@ -25,7 +26,8 @@ In this repository you will find the following directories:
  - `lucrare`: this directory MUST contain the thesis in PDF format
 
 Important:
- - You are **NOT ALLOWED** to use references to remote sub-repositories.
+ - You are **NOT ALLOWED** to use references to remote sub-repositories
+ - Please **do not** upload archives, upload just the source code. Failure to comply to this instructiun might result in the comitee ignoring the application.
 
 
 
