@@ -32,3 +32,10 @@ Important:
 ### Instructions
 
 For updating the contents of this repository please clone locally the repository, add/update you data and push back the changes.
+
+
+## References
+
+ - https://git-scm.com/docs/gittutorial
+ - https://docs.gitlab.com/ee/gitlab-basics/
+ - https://www.sourcetreeapp.com/
