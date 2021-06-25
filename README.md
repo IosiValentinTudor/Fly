@@ -1,4 +1,4 @@
-# [RO] Licenta/Disertatie 2020
+# [RO] Licenta/Disertatie 2021
 
 Scopul acestui depozit este colectarea lucrariilor de licenta.
 
