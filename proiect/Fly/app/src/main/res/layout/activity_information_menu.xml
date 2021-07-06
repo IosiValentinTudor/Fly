@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationMenu"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <Button
+            android:id="@+id/beginer"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:text="Beginner"
+            android:background="@drawable/custom_button2"
+        />
+
+        <Button
+            android:id="@+id/advanced"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:text="Advanced"
+            android:background="@drawable/custom_unselected_button2"
+            />
+        <Button
+            android:id="@+id/gear"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:text="gear"
+            android:background="@drawable/custom_unselected_button2"
+            />
+        <Button
+            android:id="@+id/safety"
+            android:layout_width="95dp"
+            android:layout_height="50dp"
+            android:text="safety"
+            android:background="@drawable/custom_unselected_button2"
+            />
+
+
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="245dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/titlu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:text="1.  Book a tandem flight to know how paragliding is" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="      Once you are up in the air the paragliding experience may feel very different from what you expected. This is the reason why our first paragliding tip is that you book a tandem paragliding flight. That will give you the chance to fly with a professional who will show you how it feels to fly like a bird, but you won’t have the added stress of controlling the situation and the huge paraglider wing floating above your head." />
+
+                <TextView
+                    android:id="@+id/titlu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:text="2.  Sign up for a paragliding course" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="      Once you have tried the paragliding experience and you have decided that you absolutely love it, it is probably that you want to take it further and you have decided that the next step is to become a paragliding pilot. Thus, if you have always dreamt with becoming a pilot, you just have to sign up for a paragliding course with certified professionals." />
+
+                <TextView
+                    android:id="@+id/titlu3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:text="3.  Join a good paragliding club" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="        Once you have made the Club Pilot course, you have the chance to fly within a club environment, so you can join a paragliding club. We strongly recommend you trying to find a club close to your home, or otherwise, the club your Paragliding School is involved in. Once you join a paragliding club, you have the chance to interact with other pilots who will share their experiences and will give you advice about paragliding." />
+
+                <TextView
+                    android:id="@+id/titlu4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:text="4.  Don’t fly on your own — make friends and fly with them!" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    android:text="      Although this paragliding tip might sound a bit silly, it is clear that the best option to make paragliding friends is to join a paragliding club. Surely, most of them will have many years of experience from which you can learn. That will definitely help you to progress and improve your skills. When you start your paragliding life, it can be difficult to make the right decision about which is the best paragliding site to fly depending on several factors like the weather conditions and so on. Nevertheless, if you have paragliding friends, you won’t have to worry about it, because they will help you." />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

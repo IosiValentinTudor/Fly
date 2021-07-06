@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849651012460",
+    "project_id": "flymaster",
+    "storage_bucket": "flymaster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849651012460:android:62794cd11864d5a3955949",
+        "android_client_info": {
+          "package_name": "com.example.fly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849651012460-lnnrbv6kvvnappdh7ofsocm0h5o1vln6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_t2yBeZLxI-KbyDTchHtLRKAfvLx97Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849651012460-lnnrbv6kvvnappdh7ofsocm0h5o1vln6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
